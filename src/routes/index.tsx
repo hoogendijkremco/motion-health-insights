@@ -29,7 +29,7 @@ function Index() {
       <NewsletterHeader
         issueLabel="Maart 2025"
         issueNumber="Nr. 07"
-        tagline="De snelst bewegende innovaties in de zorg voor het bewegingsapparaat — helder geselecteerd, elke maand vers op je inbak."
+        tagline="De snelst bewegende innovaties in de zorg voor het bewegingsapparaat — helder geselecteerd, elke maand vers in je inbox."
         focusAreas={[
           { label: "Orthopedie", color: "coral" },
           { label: "Revalidatiegeneeskunde", color: "mint" },
