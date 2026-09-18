@@ -14,13 +14,6 @@ interface NewsletterHeaderProps {
   focusAreas: FocusArea[];
 }
 
-const colorDot: Record<FocusColor, string> = {
-  coral: "bg-coral",
-  mint: "bg-mint",
-  sun: "bg-sun",
-  sky: "bg-sky",
-  grape: "bg-grape",
-};
 
 const colorChipBg: Record<FocusColor, string> = {
   coral: "bg-coral/15",
