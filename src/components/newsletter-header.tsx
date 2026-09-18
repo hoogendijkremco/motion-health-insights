@@ -1,3 +1,5 @@
+import maartenskliniekLogo from "@/assets/sint-maartenskliniek_logo.png.asset.json";
+
 type FocusColor = "coral" | "mint" | "sun" | "sky" | "grape";
 
 interface FocusArea {
@@ -47,14 +49,11 @@ export function NewsletterHeader({
       {/* Top meta bar */}
       <div className="relative mx-auto flex max-w-[1440px] flex-col gap-6 px-5 py-8 sm:px-8 sm:py-10 lg:flex-row lg:items-center lg:justify-between lg:px-16 lg:py-12">
         <div className="flex flex-wrap items-center gap-4 lg:gap-5">
-          <div
-            className="flex size-12 items-center justify-center rounded-2xl bg-ink text-cream font-display sm:size-14"
-            aria-hidden="true"
-          >
-            <span className="text-2xl font-black tracking-tighter sm:text-3xl">
-              FM
-            </span>
-          </div>
+          <img
+            src={maartenskliniekLogo.url}
+            alt="Sint Maartenskliniek"
+            className="h-12 w-auto sm:h-14"
+          />
           <div className="leading-tight">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-coral sm:text-xs">
               Bewegingsapparaat · maandelijkse
